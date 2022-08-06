@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="container">
+      <br />
+      <h1 id="title"><span id="s1">NET</span><span id="s2">FLIX</span></h1>
+      <br />
+      <h2>Thank you for signing up at Netflix.Tell us more about yourself.</h2>
+      <br />
+      <div id="formbox">
+        <div>
+          <label for="name">Name</label><br /><br /><input
+            required
+            class="inputbox"
+            type="text"
+            name="Name"
+            id="name"
+            placeholder="Enter your name"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="surname">Surname</label><br /><br /><input
+            required
+            class="inputbox"
+            type="text"
+            name="Surname"
+            id="surname"
+            placeholder="Enter your surname"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="email">E-mail</label><br /><br /><input
+            required
+            type="email"
+            name="email"
+            id="email"
+            class="inputbox"
+            placeholder="Enter your e-mail"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="type">Content Type</label><br /><br /><select
+            class="selectbox"
+            name="Content type"
+            id="type"
+          >
+            <option value="not selected" selected>Select an option</option>
+            <option value="series">Series</option>
+            <option value="comedy">Comedy</option>
+            <option value="crime">Crime</option>
+            <option value="horror">Horror</option>
+            <option value="sci-fi">Sci-Fi</option>
+            <option value="sports">Sports</option>
+            <option value="westerns">Westerns</option>
+          </select>
+        </div>
+        <br />
+        <div>
+          <p>Movie Type</p>
+          <input type="checkbox" name="movietype" id="comedy" /><label
+            for="comedy"
+            >Comedy</label
+          >
+          <br />
+          <input type="checkbox" name="movietype" id="action" /><label
+            for="action"
+            >Action</label
+          >
+          <br />
+          <input type="checkbox" name="movietype" id="romance" /><label
+            for="romance"
+            >Romance</label
+          >
+        </div>
+        <br />
+        <div>
+          <p>Gender</p>
+          <input type="radio" name="male" id="male" /><label for="male"
+            >Male</label
+          >
+          <br />
+          <input type="radio" name="female" id="female" /><label for="female"
+            >Female</label
+          >
+          <br />
+          <input type="radio" name="other" id="other" /><label for="other"
+            >Other</label
+          >
+          <br />
+          <br />
+        </div>
+        <div>
+          <p>Feedback</p>
+          <br /><textarea
+            placeholder="Please write your comments here..."
+            name="feedback"
+            id="feedback"
+            cols="40"
+            rows="2"
+          ></textarea>
+        </div>
+        <input type="submit" value="Submit" class="submit" />
+      </div>
+    </main>
+  </body>
+</html>
