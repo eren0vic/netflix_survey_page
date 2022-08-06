@@ -19,8 +19,10 @@ background-attachment:fixed;}
 h1{text-align: center;}
 h2{color: white;
 text-align:center ;}
-#s1{color: white;}
-#s2{color: red;}
+#s1{color: white;
+font-family: titanone;}
+#s2{color: red;
+font-family: titanone;}
 
 div{color: white;}
 
@@ -57,3 +59,8 @@ height: 80px;}
 
 .submit:hover{background-color: white;
 color: red;}
+
+@font-face {
+    font-family: titanone;
+    src: url(./TitanOne-Regular.ttf);
+}
