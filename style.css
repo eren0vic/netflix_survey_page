@@ -12,10 +12,12 @@ background-attachment:fixed;}
     background-color: rgba(0, 0, 0, 0.3);
     padding: 5px;}
 
-h1{text-align: center;}
+h1{text-align: center;
+    font-size:3vw;}
 h2{color: white;
 text-align:center;
-margin: auto;}
+margin: auto;
+font-size:1vw;}
 #s1{color: white;
 font-family: titanone;}
 #s2{color: red;
