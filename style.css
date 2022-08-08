@@ -12,8 +12,7 @@ background-size: cover;}
 #container{
     margin: 10px;
     background-color: rgba(0, 0, 0, 0.3);
-    padding: 5px;
-}
+    padding: 5px;}
 
 h1{text-align: center;
     }
@@ -42,9 +41,10 @@ div{color: white;}
 
 #formbox{display: flex;
     flex-direction: column;
-    box-sizing: border-box;
+    box-sizing: content-box;
     width: fit-content;
-    padding: 40px;
+    height: fit-content;
+    padding: 20px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0.7);
     
@@ -55,7 +55,7 @@ div{color: white;}
     border-radius: 30px;
     background-color: red;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 30px;
 }
 
